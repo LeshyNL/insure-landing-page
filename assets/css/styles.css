@@ -695,6 +695,11 @@ ol.menu--active {
   text-decoration: underline;
 }
 
+@media screen and (min-width: 640px) {
+  .list-sitemap {
+    text-align: left;
+  }
+}
 @media screen and (min-width: 1024px) {
   .footer-sitemap {
     justify-content: space-between;
@@ -736,7 +741,6 @@ ol.menu--active {
   }
 
   .list-sitemap {
-    text-align: left;
     flex-basis: 25%;
   }
 }
