@@ -117,19 +117,6 @@ a:focus, button:focus {
   outline: 1.5px dotted var(--color-neutral-2);
 }
 
-body::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("../../design/desktop-design.jpg");
-  background-repeat: no-repeat;
-  opacity: 0.75;
-  z-index: 99;
-}
-
 .link-button {
   margin: 2rem 0;
   padding: 0.5rem 1rem;
